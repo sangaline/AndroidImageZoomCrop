@@ -1,8 +1,32 @@
+# AndroidImageZoomCrop
+
 IOS, IPhone style photo cropping tool. Similar to Facebook profile image selection on Android, move, scale and crop.
 
 Have option to select image from Gallery or Camera. Zoom in,out to crop an image. Uses modified version of Photoview and Stripped down version of Cropper library.
 
 [Sample APK FILE!](https://github.com/ozeetee/AndroidImageZoomCrop/releases/download/1.0/AndroidImageZoomCrop.apk)
+
+## Download
+### Gradle
+
+Add [jitpack.io](http:/jitpack.io) in your root build.gradle at the end of repositories:
+
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+
+and then add the library as a dependency:
+
+```gradle
+dependencies {
+    compile 'com.github.sangaline:AndroidImageZoomCrop:2.0'
+}
+```
 
 ## License
 
